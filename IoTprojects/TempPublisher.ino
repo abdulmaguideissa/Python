@@ -11,10 +11,10 @@
 #include <UbidotsESPMQTT.h>
 #include <DHT.h>
 
-#define TOKEN       "BBFF-3sxGXzs765VxZ7tdMSKZtcOpQkBr3E"
-#define WIFISSID    "A_Eissa" 
-#define PASSWORD    "Adam@Eissa_*27*7*2017"
-#define TOPIC       "m-to-m/temperature"
+#define TOKEN       "Put your token here"
+#define WIFISSID    "ssid" 
+#define PASSWORD    "password"
+#define TOPIC       "put your topic here"
 #define DHT_TYPE    (11)
 #define DHT_PIN     (D6)
 
