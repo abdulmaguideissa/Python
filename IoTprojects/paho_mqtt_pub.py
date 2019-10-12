@@ -14,8 +14,8 @@ import paho.mqtt.client as mqtt
 
 broker_url  = "iot.eclipse.org"
 broker_port = 1883
-#topic = "m-to-m/trigger"
-#token = "BBFF-3sxGXzs765VxZ7tdMSKZtcOpQkBr3E"
+#topic = "put your topic here"
+#token = "put your token here"
 
 # Testing the client
 client = mqtt.Client()
