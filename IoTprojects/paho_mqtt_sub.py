@@ -28,9 +28,9 @@ GPIO.setup(11, GPIO.OUT)
 connected   = False
 broker_url  = "industrial.api.ubidots.com"
 broker_port = 1883
-Token    = "BBFF-3sxGXzs765VxZ7tdMSKZtcOpQkBr3E"
-Device   = "m-to-m"
-Variable = "trigger"
+Token    = "token"
+Device   = "device"
+Variable = "variable"
 topic    = "/v1.6/devices/"
 Topic    = "{}/{}".format(Device, Variable)
 url      = "{}/api/v1.6.devices/{}/{}/lv".format(broker_url, Device, Variable)
